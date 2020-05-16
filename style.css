@@ -1,0 +1,78 @@
+body{
+    background-color:#F5F6FA;
+    display: flex;
+    justify-content: center;
+} 
+
+h6 {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    margin-block-end: 0;
+}
+p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+} 
+
+.tableau {
+    display : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  
+}
+        .card {
+            background-color: #ffffff;
+            border : 1px solid #dadada;
+            display : flex;
+
+        }
+
+            .card:nth-child(3) {
+                border-top: 0px;
+
+            }
+
+            .card:nth-child(2) {
+                border-top: 0px;
+
+            }
+
+            .card:nth-child(4) {
+                border-top: 0px;
+
+        }
+
+        .texte {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+        }
+        .img1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+
+        }
+        .trash2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+
+        }
+
+            .photo {
+                width: 60px;
+                border-radius: 50%;
+                vertical-align: middle;
+
+            }
+            .poubelle {
+                width: 15px;
+
+            }
